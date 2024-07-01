@@ -1,0 +1,126 @@
+form{
+    height: 40px;
+    width: 500px;
+    background-color: #FFF0EB;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid #2D0B00;
+    margin-bottom: 50px;
+}
+
+form input{
+    width: 70%;
+    height: 100%;
+    border: none;
+    outline: none;
+    border-radius: inherit;
+    background: none;
+    padding: 0 20px;
+    font-size: 16px;
+}
+form button{
+    width: 100px;
+    height: 100%;
+    outline: none;
+    border-radius: inherit;
+    background-color:  #2D0B00;
+    cursor: pointer;
+    font-size: 15px;
+    color: WHITE;
+    border: 2px solid #2D0B00;
+}
+
+/* todo styling */
+
+
+.todo{
+    border: 1px solid #2D0B00;
+    
+    border-radius: 12px;
+    /* background-color: #2D0B00; */
+    color: #FFF0EB;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.todo .input-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   width: 80%;
+   height: 100%;
+   background-color: rgb(138, 0, 0);
+   border: none;
+   border-bottom-left-radius:10px ;
+   transition: all 0.1s ease-in-out;
+
+   border-top-left-radius:10px ;
+}
+.todo .input-box.checkInput{
+    background-color: rgb(1, 114, 1);
+    transition: all 0.1s ease-in-out;
+}
+.todo .input-box.checkInput .edit-text{
+    text-decoration: line-through;
+}
+
+.todo .input-box .checkbox{
+    margin-left:10px ;
+    cursor: pointer;
+}
+.todo .input-box .edit-text{
+    background: none;
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 0 10px;
+    color: #FFF0EB;
+    font-size: 16px;
+}
+
+
+.todo .button-box{
+    background-color: none;
+    border-radius: 10px;
+}
+.todo .button-box .edit{
+    width: 50px;
+    height: 100%;
+    outline: none;
+    background-color: #FFF0EB;
+    cursor: pointer;
+    font-size: 16px;
+
+    color: #2D0B00;
+    border:none;
+}
+.todo .button-box .edit:hover{
+    background-color: #c9bbb6;
+}
+
+.todo .button-box .delete{
+    width: 50px;
+    height: 100%;
+    outline: none;
+    border-bottom-right-radius:10px ;
+    border-top-right-radius:10px ;
+    background-color: #FFF0EB;
+    cursor: pointer;
+    font-size: 16px;
+    color: #2D0B00;
+    border:none;
+}
+.todo .button-box .delete:hover{
+    background-color: #c9bbb6;
+}
+
+.todo .button-box .delete i{
+    color: black;
+    border: none;
+}
+
+
+
